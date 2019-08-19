@@ -1,0 +1,90 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+
+body {
+  font: 200 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 75px;
+}
+
+.header {
+  position: relative;
+  height: 30vh;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+}
+
+.brand {
+  position: absolute;
+  top: 56px;
+  right: 300px;
+}
+
+.iphones {
+  position: absolute;
+  top: 47px;
+  left: 211px;
+}
+
+.frame {
+  position: absolute;
+  top: 140px;
+  left: 601px;
+}
+
+.frame h2 {
+  position: absolute;
+  top: 24px;
+  right: 224px;
+  color: #06365f;
+}
+
+.frame p {
+  position: absolute;
+  top: 105px;
+  right: 30px;
+  margin-left: 40px;
+  line-height: 30px;
+}
+
+.store {
+  position: absolute;
+  top: 478px;
+  right: 287px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+footer {
+  margin-top: 375px;
+} 
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-weight: 300px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  font-weight: 300px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #06365f;
+}
